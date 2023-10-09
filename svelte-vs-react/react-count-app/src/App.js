@@ -9,7 +9,7 @@ function App() {
         setCount(count + 1);
       }}
     >
-      current count: {count}
+      count: {count}
     </button>
   );
 }
