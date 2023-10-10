@@ -15,3 +15,19 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+function choice({ choice }) {
+
+  return (
+    <span>your choice is: {choice}</span>
+  );
+
+}
+
+
+
