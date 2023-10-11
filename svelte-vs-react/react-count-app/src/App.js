@@ -41,3 +41,27 @@ function compAsProps() {
   );
 
 }
+
+
+
+
+
+
+function Nav(props){
+  return (
+    <nav>
+      {props.children}
+    </nav>
+  )
+}
+
+
+
+
+function useNav(){
+  return(
+    <Nav>
+      <button href="/login"> Login </button>
+    </Nav>
+  )
+}
