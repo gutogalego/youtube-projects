@@ -31,3 +31,13 @@ function choice({ choice }) {
 
 
 
+
+
+
+function compAsProps() {
+
+  return (
+    <App loginButton={<button href="/login"> Login </button>}/>
+  );
+
+}
