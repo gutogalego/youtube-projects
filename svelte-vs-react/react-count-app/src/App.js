@@ -14,26 +14,6 @@ function App() {
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default App;
 
 function choice({ choice }) {
@@ -91,8 +71,6 @@ function Conditional() {
   return <>{count < 1 ? <p>empty</p> : <p>not empty</p>}</>;
 }
 
-
-
 function ReactOnTheWild() {
   const [count, setCount] = useState(0);
 
@@ -111,23 +89,18 @@ function ReactOnTheWild() {
   );
 }
 
-
-
-
-
 function loopz() {
   const items = [
-    {id: 1, name: "one"},
-    {id: 2, name: "two"},
-    {id: 3, name: "three"},
-  ]
+    { id: 1, name: "one" },
+    { id: 2, name: "two" },
+    { id: 3, name: "three" },
+  ];
 
   return (
     <>
       {items.map((item) => {
-        <div>{item.name}</div>
+        <div>{item.name}</div>;
       })}
     </>
   );
 }
-
