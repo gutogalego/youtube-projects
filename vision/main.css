@@ -1,0 +1,28 @@
+.react-logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background: #61dafb;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .orbit {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #61dafb;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -3,6 +3,9 @@ import { React, useState } from "react";
 function App() {
   const [count, setCount] = useState(0);
 
+  choice()
+  compAsProps()
+
   return (
     <button
       onClick={() => {
@@ -15,6 +18,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
 
 function choice({ choice }) {
   return <span>your choice is: {choice}</span>;
